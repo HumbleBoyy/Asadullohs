@@ -23,9 +23,9 @@ html{
 
 /* Dark Mode Styles */
 :root {
-  --background-color: #F8F6E3;
+  --background-color: #F5F7F8;
   --text-color: #021526;
-  --navbar-back-color: #FFF0D1;
+  --navbar-back-color: #F5F7F8;
 }
 [data-theme="dark"] {
   --background-color: #021526;

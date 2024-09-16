@@ -7,7 +7,7 @@ import six from "./images/asadullohsSix.jpg"
 import seven from "./images/asadullohsSeven.jpg"
 import eight from "./images/asadullohsEight.jpg"
 import uzbek from './logo/uzbekistan.png'
-import england from './logo/england.png'
+import england from './logo/uk.png'
 import russan from './logo/russan.png'
 export default{
     one,

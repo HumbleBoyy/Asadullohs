@@ -3,6 +3,7 @@ import { useState } from "react"
 import { MdSunny } from "react-icons/md";
 import { MdNightlightRound } from "react-icons/md";
 import './darkMode.css'
+import { GiMoon } from "react-icons/gi";
 
 const ModeDark = () => {
     
@@ -21,7 +22,7 @@ const ModeDark = () => {
   return (
     <>
       <button onClick={toggleTheme} className="darkBtn">
-         {theme === 'light' ? <MdNightlightRound className="darkIcon"/> : <MdSunny className="lightIcon"/>}
+         {theme === 'light' ? <GiMoon className="darkIcon"/> : <MdSunny className="lightIcon"/>}
       </button>
     </>
   )
