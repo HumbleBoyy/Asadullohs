@@ -1,4 +1,5 @@
 import ModeDark from "./Components/DarkMode/ModeDark"
+import Navbar from "./Components/Navbar/Navbar"
 
 
 
@@ -6,7 +7,7 @@ import ModeDark from "./Components/DarkMode/ModeDark"
 const App = () => {
   return (
     <>
-      <ModeDark/>
+      <Navbar/>
     </>
   )
 }
