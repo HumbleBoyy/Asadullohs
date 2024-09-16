@@ -1,12 +1,16 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import { MdSunny } from "react-icons/md";
-import { MdNightlight } from "react-icons/md";
+import { MdNightlightRound } from "react-icons/md";
+import './darkMode.css'
 const DarkMode = () => {
-    const [theme, setTheme] = useState('light')
+    const [theme, setTheme] = useState(localStorage.getItem('theme' || 'light'))
 
     useEffect(()=> {
         document.documentElement.setAttribute('data-theme', theme)
+
+
+        localStorage.setItem('theme', theme)
     },[theme])
 
     const toggleTheme = () => {
@@ -14,8 +18,8 @@ const DarkMode = () => {
     }
   return (
     <>
-      <button onClick={toggleTheme}>
-         {theme === 'light' ? <MdNightlight /> : <MdSunny />}
+      <button onClick={toggleTheme} className="darkBtn">
+         {theme === 'light' ? <MdNightlightRound className="darkIcon"/> : <MdSunny className="lightIcon"/>}
       </button>
     </>
   )

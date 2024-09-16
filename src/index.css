@@ -1,3 +1,4 @@
+/* Core styles */
 *{
   margin: 0;
   padding: 0;
@@ -10,7 +11,15 @@ html{
   font-size: 62.5%;
 }
 
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/* //Core styles */
 
+
+
+/* Dark Mode Styles */
 :root {
   --background-color: #fff;
   --text-color: #000;
@@ -23,5 +32,6 @@ html{
 body{
   background-color: var(--background-color);
   color: var(--text-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  /* transition: background-color 0.1s ease, color 0.1s ease; */
 }
+/* Dark Mode Styles */
