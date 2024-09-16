@@ -37,7 +37,7 @@ const Navbar = () => {
                  <div className="languages">
                   <img onClick={()=> handleChange('uz')} className='Flags_img' src={images.uzbek} alt="Uzbek_Flag" />
                   <img onClick={()=> handleChange('en')} className='Flags_img' src={images.england} alt="England_Flag" />
-                  <img onClick={()=> handleChange('uz')} className='Flags_img' src={images.russan} alt="Russian_Flag" />
+                  <img onClick={()=> handleChange('ru')} className='Flags_img' src={images.russan} alt="Russian_Flag" />
                  </div>
                 </div>
              </ul>
