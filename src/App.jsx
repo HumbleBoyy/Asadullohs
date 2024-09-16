@@ -1,9 +1,12 @@
-import Navbar from "./Components/Navbar/Navbar"
+import ModeDark from "./Components/DarkMode/ModeDark"
+
+
+
 
 const App = () => {
   return (
     <>
-      <Navbar/>
+      <ModeDark/>
     </>
   )
 }

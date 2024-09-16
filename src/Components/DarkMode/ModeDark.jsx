@@ -3,7 +3,8 @@ import { useState } from "react"
 import { MdSunny } from "react-icons/md";
 import { MdNightlightRound } from "react-icons/md";
 import './darkMode.css'
-const DarkMode = () => {
+const ModeDark = () => {
+    
     const [theme, setTheme] = useState(localStorage.getItem('theme' || 'light'))
 
     useEffect(()=> {
@@ -25,4 +26,4 @@ const DarkMode = () => {
   )
 }
 
-export default DarkMode
+export default ModeDark

@@ -32,7 +32,14 @@ const Navbar = () => {
   return (
     <>
     <section className='navbar'>
-   
+       <div className="container">
+          <nav className='navbar_nav'>
+             <div className="navbar_logo">
+                
+                Hello
+             </div>
+          </nav>
+       </div>
     </section>
     </>
   )

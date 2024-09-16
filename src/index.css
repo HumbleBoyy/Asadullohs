@@ -22,10 +22,11 @@ html{
 /* Dark Mode Styles */
 :root {
   --background-color: #fff;
-  --text-color: #000;
+  --text-color: #021526;
+  --navbar-back-color: #FFF0D1;
 }
 [data-theme="dark"] {
-  --background-color: #121212;
+  --background-color: #000;
   --text-color: #fff;
 }
 
