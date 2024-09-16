@@ -1,7 +1,10 @@
+import DarkMode from "./Components/DarkMode/DarkMode"
+
 const App = () => {
   return (
     <>
-      Asadullohs
+      <DarkMode/>
+      Asadulloh
     </>
   )
 }
