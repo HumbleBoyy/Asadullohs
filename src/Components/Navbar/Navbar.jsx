@@ -16,8 +16,8 @@ const Navbar = () => {
 
 
     const handleChange = (event) => {
-        const selectedLanguage = event.target.value;
-        i18n.changeLanguage(selectedLanguage);
+      //   const selectedLanguage = event.target.value;
+        i18n.changeLanguage(event);
    }
   return (
     <>
@@ -35,9 +35,9 @@ const Navbar = () => {
                 <div className="navbar_right">
                  <ModeDark/>
                  <div className="languages">
-                 <img onClick={handleChange} value="uz" className='Flags_img' src={images.uzbek} alt="Uzbekistan_Flag" />
-                 <img onClick={handleChange} value="en" className='Flags_img' src={images.england} alt="England_Flag" />
-                 <img onClick={handleChange} value="ru" className='Flags_img' src={images.russan} alt="Russian_Flag" />
+                  <img onClick={()=> handleChange('uz')} className='Flags_img' src={images.uzbek} alt="Uzbek_Flag" />
+                  <img onClick={()=> handleChange('en')} className='Flags_img' src={images.england} alt="England_Flag" />
+                  <img onClick={()=> handleChange('uz')} className='Flags_img' src={images.russan} alt="Russian_Flag" />
                  </div>
                 </div>
              </ul>

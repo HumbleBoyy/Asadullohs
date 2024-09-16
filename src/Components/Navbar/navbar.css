@@ -3,6 +3,7 @@
     width: 100%;
     height: 100px;
     padding: 1rem 0rem;
+    z-index: 999;
 }
 
 .navbar_nav{
@@ -34,10 +35,5 @@
 }
 .Flags_img{
     width: 50px;
-}
-.language_btn{
-    background: transparent;
-    border: none;
-    outline: none;
     cursor: pointer;
 }
