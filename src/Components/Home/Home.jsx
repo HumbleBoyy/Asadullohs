@@ -48,11 +48,11 @@ const Home = () => {
                    <div className="box_image">
                       <div className='content'>
                          <img src={images.five} alt="Asadullohs_Picture" className='asadullohs_image'/>
-                         <h2>
+                         <h2 className='image_name'>
                            {t("Home.image_name")}<br />
                            <span>{t("Home.profession")}</span>
-                           <a href="#contact"></a>
-                         </h2>
+                           </h2>
+                           <a href="#contact" className='inner_contact_btn'>{t("Navbar.contact")}</a>
                       </div>
                    </div>
               </div>
