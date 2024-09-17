@@ -4,5 +4,13 @@
       "about":"Haqimda",
       "projects":"Loyihlar",
       "contact":"Bog'lanish"
-    }
+    },
+    "Home":{
+     "greeting":"Assalomu Alaykum,",
+     "name":"Men Asadulloh",
+     "profession":"Web-dasturchi",
+     "paragraph":"Men foydalanuvchilarga qulay veb-saytlar yarataman, bu ajoyib! Veb-sayt yaratish haqida gap ketganda, men veb-saytning tashqi ko'rinishini yarataman, ya'ni men Frontend Web-dasturchiman!",
+     "btn1":"Loyihlarim",
+     "btn2":"GitHub"
+   }
 }
