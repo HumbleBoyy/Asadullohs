@@ -17,7 +17,9 @@ const Navbar = () => {
 
     const handleChange = (event) => {
       //   const selectedLanguage = event.target.value;
-        i18n.changeLanguage(event);
+        i18n.changeLanguage(event).then(()=> {
+           window.location.reload();
+        });
    }
   return (
     <>

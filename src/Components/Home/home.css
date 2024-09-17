@@ -1,4 +1,29 @@
 .home {
     height: 100vh;
-    padding: 15rem 0rem;
+    padding: 20rem 0rem;
+}
+
+.greeting{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.name{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.profession{
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.info_paragraph{
+    font-size: 1.5rem;
+    width: 50%;
+    line-height: 20px;
+}
+
+.home_buttons{
+    margin: 2rem 0;
 }
