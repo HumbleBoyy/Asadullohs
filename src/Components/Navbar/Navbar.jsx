@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next'
 
 import ModeDark from '../DarkMode/ModeDark';
 import images from '../../assets/images';
+import { RiMenu2Line } from 'react-icons/ri';
+import { GrClose } from 'react-icons/gr';
 
 const Navbar = () => {
     const {t, i18n} = useTranslation();
@@ -43,6 +45,48 @@ const Navbar = () => {
                  </div>
                 </div>
              </ul>
+
+             {/* Navbar Menu For Small Devices */}
+
+             <div className="navbar_small_device">
+                <div className="hamburgermenu_wrapper">
+                  <ModeDark/>
+                <div className="circle_hamburger">
+                  <RiMenu2Line 
+                  onClick={()=> setToggle(true)}
+                    cursor={'pointer'}
+                    fontSize={27}
+                  />
+                </div>
+                </div>
+             {toggle && (
+               <>
+               <div className='small_device_navbar'>
+                  <div className="close_menu_wrapper">
+                     <div className="languages">
+                     <img onClick={()=> handleChange('uz')} className='Flags_img' src={images.uzbek} alt="Uzbek_Flag" />
+                     <img onClick={()=> handleChange('en')} className='Flags_img' src={images.england} alt="England_Flag" />
+                     <img onClick={()=> handleChange('ru')} className='Flags_img' src={images.russan} alt="Russian_Flag" />
+                     </div>
+                     <div className="close_circle">
+                     <GrClose 
+                      onClick={()=> setToggle(false)}
+                       cursor={'pointer'}
+                       fontSize={27}
+                     /> 
+                     </div>
+                  </div>
+                  <div className='divider'/>
+                <ul className='navbar_menu_small_device_links_wrapper'>
+                  <li><a href="#home" className='menu_links'>{t('Navbar.home')}</a></li>
+                  <li><a href="#home" className='menu_links'>{t('Navbar.about')}</a></li>
+                  <li><a href="#home" className='menu_links'>{t('Navbar.projects')}</a></li>
+                  <li><a href="#home" className='menu_links'>{t('Navbar.contact')}</a></li>
+                </ul>
+                 </div>
+               </>
+             )}
+             </div>
           </nav>
        </div>
     </section>

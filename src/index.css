@@ -26,12 +26,18 @@ html{
 :root {
   --background-color: #F5F7F8;
   --text-color: #021526;
-  --navbar-back-color: #cdcdcdd5;
+  --navbar-back-color: #FFF6DA;
+  --circle-menu: #021526;
+  --hamburgerAnd-close:#FFF6DA;
+  --line-divider: #021526;
 }
 [data-theme="dark"] {
   --background-color: #021526;
   --text-color: #F8F6E3;
   --navbar-back-color: #211951;
+  --circle-menu: #FFF6DA;
+  --hamburgerAnd-close:#021526;
+  --line-divider: #FFF6DA;
 }
 
 body{
