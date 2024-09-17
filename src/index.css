@@ -33,9 +33,12 @@ html{
   --text-color: #F8F6E3;
 }
 
-body, .Logo_name, .menu_links{
+body{
   background-color: var(--background-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Logo_name, .menu_links, .home_btn{
+  color: var(--text-color);
 }
 /* Dark Mode Styles */
