@@ -4,7 +4,7 @@
     height: 80px;
     padding: 2rem 0rem;
     z-index: 999;
-    background: rgba(0, 170, 255, 0.207);
+    background: var(--navbar-back-color);
 }
 
 .navbar_nav{
@@ -15,8 +15,27 @@
 
 .Logo_name{
     font-size: 3rem;
-    font-weight: 900;
+    position: relative;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke: 0.3vw #161c33;
+    text-transform: uppercase;
 }
+.Logo_name::before{
+   content: attr(data-text);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0%;
+   height: 100%;
+   color:  #F8F6E3;
+   -webkit-text-stroke: 0vw #2f3960;
+   border-right: 2px solid  #F8F6E3;
+   overflow: hidden;
+   animation: animateName 6s linear infinite;
+}
+
 
 .navbar_menu_links{
     display: flex;
@@ -36,4 +55,13 @@
 .Flags_img{
     width: 50px;
     cursor: pointer;
+}
+
+@keyframes animateName{
+    0%, 10%, 100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 100%;
+    }
 }

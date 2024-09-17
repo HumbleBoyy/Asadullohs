@@ -27,7 +27,7 @@ const Navbar = () => {
        <div className="container">
           <nav className='navbar_nav'>
              <div className="navbar_logo">
-                 <a href="#" className='Logo_name'>Asadullohs</a>
+                 <a href="#" className='Logo_name' data-text="Asadullohs">Asadullohs</a>
              </div>
              <ul className='navbar_menu_links wrapper'>
                 <li><a href="#home" className='menu_links'>{t('Navbar.home')}</a></li>

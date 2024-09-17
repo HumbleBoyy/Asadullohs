@@ -26,11 +26,12 @@ html{
 :root {
   --background-color: #F5F7F8;
   --text-color: #021526;
-  --navbar-back-color: #F5F7F8;
+  --navbar-back-color: #cdcdcdd5;
 }
 [data-theme="dark"] {
   --background-color: #021526;
   --text-color: #F8F6E3;
+  --navbar-back-color: #211951;
 }
 
 body{
@@ -38,7 +39,7 @@ body{
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-.Logo_name, .menu_links, .home_btn{
+ .menu_links, .home_btn{
   color: var(--text-color);
 }
 /* Dark Mode Styles */

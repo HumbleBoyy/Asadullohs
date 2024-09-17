@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
     <Navbar/>
-      <section id='home' className='home'>
+      {/* <section id='home' className='home'>
         <div className="container">
            <div className="home_items_wrapper">
               <div className="home_item_right">
@@ -43,7 +43,6 @@ const Home = () => {
               </div>
 
 
-              {/* Home Right side */}
               <div className='right_side_of_home'>
                    <div className="box_image">
                       <div className='content'>
@@ -58,7 +57,7 @@ const Home = () => {
               </div>
            </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
