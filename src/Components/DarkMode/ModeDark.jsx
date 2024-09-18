@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import { useState } from "react"
-import { MdSunny } from "react-icons/md";
+import { MdDarkMode, MdSunny } from "react-icons/md";
 import { MdNightlightRound } from "react-icons/md";
 import './darkMode.css'
 import { GiMoon } from "react-icons/gi";
@@ -22,7 +22,7 @@ const ModeDark = () => {
   return (
     <>
       <button onClick={toggleTheme} className="darkBtn">
-         {theme === 'light' ? <GiMoon className="darkIcon"/> : <MdSunny className="lightIcon"/>}
+         {theme === 'light' ? <MdDarkMode  className="darkIcon"/> : <MdSunny className="lightIcon"/>}
       </button>
     </>
   )

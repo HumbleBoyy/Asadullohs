@@ -78,10 +78,10 @@ const Navbar = () => {
                   </div>
                   <div className='divider'/>
                 <ul className='navbar_menu_small_device_links_wrapper'>
-                  <li><a href="#home" className='menu_links'>{t('Navbar.home')}</a></li>
-                  <li><a href="#home" className='menu_links'>{t('Navbar.about')}</a></li>
-                  <li><a href="#home" className='menu_links'>{t('Navbar.projects')}</a></li>
-                  <li><a href="#home" className='menu_links'>{t('Navbar.contact')}</a></li>
+                  <li><a href="#home" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.home')}</a></li>
+                  <li><a href="#home" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.about')}</a></li>
+                  <li><a href="#home" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.projects')}</a></li>
+                  <li><a href="#home" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.contact')}</a></li>
                 </ul>
                  </div>
                </>

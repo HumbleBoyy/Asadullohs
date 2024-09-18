@@ -6,7 +6,7 @@
 }
 
 .lightIcon{
-    font-size: 3rem;
+    font-size: 3.2rem;
     color: yellow;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
@@ -15,7 +15,9 @@
 }
 
 .darkIcon{
-    font-size: 3rem;
+    font-size: 3.2rem;
     border-radius: 50%;
-    /* box-shadow: 0px 1px 5px rgb(0, 0, 0); */
+    background: #ffffff;
+    color: black;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
 }
