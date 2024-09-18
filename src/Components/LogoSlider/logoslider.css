@@ -1,0 +1,16 @@
+.logoSlider{
+    height: 120px;
+    padding: 0 1rem;
+    background: var(--slider-back-color);
+}
+.logos_wrapper{
+    width: 100%;
+    padding: 2rem;
+}
+.Logos{
+    width: 80px;
+}
+
+.Logos_next{
+    width: 200px;
+}

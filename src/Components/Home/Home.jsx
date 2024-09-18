@@ -5,6 +5,7 @@ import { FaGithub } from 'react-icons/fa'
 import { GrProjects } from 'react-icons/gr'
 import images from '../../assets/images'
 import About from '../About/About'
+import LogoSlider from '../LogoSlider/LogoSlider'
 const Home = () => {
   return (
     <>
@@ -59,7 +60,7 @@ const Home = () => {
            </div>
         </div>
       </section>
-
+       <LogoSlider/>
       <About/>
     </>
   )
