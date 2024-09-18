@@ -55,3 +55,21 @@ body{
   color: var(--text-color);
 }
 /* Dark Mode Styles */
+
+
+/* Scroll bar */
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(to right, #002a9d, #00011ceb);
+}
