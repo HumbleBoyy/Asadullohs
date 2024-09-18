@@ -1,9 +1,11 @@
 import React from 'react'
-
+import './about.css'
 const About = () => {
   return (
     <>
-     About 
+    <section className='about' id='about'>
+
+    </section>
     </>
   )
 }

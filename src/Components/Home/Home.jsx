@@ -4,11 +4,12 @@ import Navbar from '../Navbar/Navbar'
 import { FaGithub } from 'react-icons/fa'
 import { GrProjects } from 'react-icons/gr'
 import images from '../../assets/images'
+import About from '../About/About'
 const Home = () => {
   return (
     <>
     <Navbar/>
-      {/* <section id='home' className='home'>
+      <section id='home' className='home'>
         <div className="container">
            <div className="home_items_wrapper">
               <div className="home_item_right">
@@ -57,7 +58,9 @@ const Home = () => {
               </div>
            </div>
         </div>
-      </section> */}
+      </section>
+
+      <About/>
     </>
   )
 }

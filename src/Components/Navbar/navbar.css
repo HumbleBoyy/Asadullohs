@@ -47,7 +47,14 @@
 .menu_links{
     font-size: 2rem;
     color: var(--home_links-color);
+    transition: ease-in-out 0.5s;
 }
+.menu_links:hover{
+    letter-spacing: 0.5rem;
+    text-shadow: 1px 0px 10px #ffffff;
+    transition: ease-in-out 0.5s;
+}
+
 
 .navbar_right{
     display: flex;
@@ -121,7 +128,7 @@
     .small_device_navbar{
         position: fixed;
         top: 0;
-        right: 0;
+        right: 0%;
         background: var(--navbar-back-color);
         height: 100vh;
         width: 70%;
@@ -145,6 +152,9 @@
     .Logo_name{
         font-size: 3rem;
         -webkit-text-stroke: 0.8vw #161c33;
+    }
+    .menu_links{
+        font-size: 4rem;
     }
 }
 
@@ -178,8 +188,6 @@
     }
 
     .navbar_menu_small_device_links_wrapper{
-        display: flex;
-        flex-direction: column;
         margin: 10rem 5rem;
         gap: 1rem;
     }
@@ -200,8 +208,6 @@
     }
 
     .navbar_menu_small_device_links_wrapper{
-        display: flex;
-        flex-direction: column;
         margin: 10rem 3rem;
         gap: 1rem;
     }
