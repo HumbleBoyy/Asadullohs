@@ -100,6 +100,7 @@
     .navbar{
         padding: 2rem 1rem;
     }
+    
 }
 
 @media(max-width:868px){
@@ -126,6 +127,7 @@
         width: 70%;
         transition: ease 0.5s;
         z-index: 5;
+        box-shadow: 0px 15px 10px #000000;
     }
     .divider{
         width: 100%;
@@ -139,6 +141,10 @@
         flex-direction: column;
         margin: 10rem 1rem;
         gap: 1rem;
+    }
+    .Logo_name{
+        font-size: 3rem;
+        -webkit-text-stroke: 0.8vw #161c33;
     }
 }
 
@@ -162,6 +168,29 @@
 
     .small_device_navbar{
         width: 100%;
+    }
+    .Logo_name{
+        font-size: 3rem;
+        -webkit-text-stroke: 1.2vw #161c33;
+    }
+
+    .navbar_menu_small_device_links_wrapper{
+        display: flex;
+        flex-direction: column;
+        margin: 10rem 5rem;
+        gap: 1rem;
+    }
+}
+
+@media(max-width:368px){
+
+
+    .small_device_navbar{
+        width: 100%;
+    }
+    .Logo_name{
+        font-size: 2.7rem;
+        -webkit-text-stroke: 1.3vw #161c33;
     }
 
     .navbar_menu_small_device_links_wrapper{
