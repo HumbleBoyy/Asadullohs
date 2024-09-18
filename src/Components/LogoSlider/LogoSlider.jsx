@@ -58,14 +58,17 @@ const LogoSlider = () => {
           <div className='logos_wrapper'>
              <img src={images.react} alt="Programming Languages" className='Logos'/>
           </div>
-          {/* <div className='logos_wrapper'>
+          <div className='logos_wrapper'>
              <img src={images.nextjs} alt="Programming Languages" className='Logos_next'/>
           </div>
           <div className='logos_wrapper'>
-             <img src={images.tailwindcss} alt="Programming Languages" />
-          </div> */}
-          <div className='logos_wrapper'>
              <img src={images.sass} alt="Programming Languages" className='Logos'/>
+          </div>
+          <div className='logos_wrapper'>
+             <img src={images.typescript} alt="Programming Languages" className='Logos'/>
+          </div>
+          <div className='logos_wrapper'>
+             <img src={images.tailwindcss} alt="Programming Languages" className='Logos_next'/>
           </div>
       </Slider>
          </div>
