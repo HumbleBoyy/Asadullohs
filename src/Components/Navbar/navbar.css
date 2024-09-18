@@ -161,6 +161,9 @@
         margin: 10rem 1rem;
         gap: 1rem;
     }
+    .menu_links{
+        font-size: 2.5rem;
+    }
 }
 
 @media(max-width:568px){
@@ -180,6 +183,9 @@
         margin: 10rem 5rem;
         gap: 1rem;
     }
+    .menu_links{
+        font-size: 3rem;
+    }
 }
 
 @media(max-width:368px){
@@ -196,7 +202,7 @@
     .navbar_menu_small_device_links_wrapper{
         display: flex;
         flex-direction: column;
-        margin: 10rem 5rem;
+        margin: 10rem 3rem;
         gap: 1rem;
     }
 }
