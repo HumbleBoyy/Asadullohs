@@ -6,6 +6,7 @@ import { GrProjects } from 'react-icons/gr'
 import images from '../../assets/images'
 import LogoSlider from '../LogoSlider/LogoSlider'
 import About from '../About/About'
+import Projects from '../Projects/Projects'
 const Home = () => {
   return (
     <>
@@ -63,6 +64,7 @@ const Home = () => {
        <LogoSlider/>
        <About/>
        <LogoSlider/>
+       <Projects/>
     </>
   )
 }

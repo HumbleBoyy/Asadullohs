@@ -25,12 +25,12 @@
     width: 100%;
 }
 .TextTitle{
-    line-height: 150px;
     font-size: 2.5rem;
 }
 .about_text{
     font-size: 2rem;
-    width: 100%;
+    width: 85%;
+    margin-top: 2rem;
 }
 
 @media(max-width:1024px){
@@ -56,12 +56,11 @@
     }
 
     .TextTitle{
-        line-height: 40px;
         font-size: 2.5rem;
     }
 
     .about_text{
-        margin-top: 1rem;
+        width: 95%;
     }
 
 }

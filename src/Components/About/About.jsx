@@ -68,8 +68,11 @@ const About = () => {
             </div>
             <div className="about_right_item">
                 <h2 className='TextTitle'>{t("About.textTitle")}</h2>
-               <p className='about_text'>
+                <p className='about_text'>
                   {t("About.text")}
+               </p>
+               <p className='about_text'>
+                  {t("About.textSecond")}
                </p>
             </div>
           </div>

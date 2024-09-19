@@ -1,0 +1,14 @@
+.projects{
+    height: 100vh;
+    background: var( --background-color); 
+    padding: 6rem 0rem;
+}
+
+.project_title_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.projects_title{
+    font-size: 5rem;
+}
