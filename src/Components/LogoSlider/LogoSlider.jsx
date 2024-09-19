@@ -11,9 +11,9 @@ const LogoSlider = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2000,
+        speed: 5000,
         arrows:false,
-        autoplaySpeed: 0,
+        autoplaySpeed: true,
         cssEase: "linear",
         responsive: [
             {
