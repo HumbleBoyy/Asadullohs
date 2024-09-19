@@ -1,0 +1,36 @@
+{
+    "picturesArray":[
+       {
+        "id":"1",
+         "picture":"../imagesPub/asadullohsOne.jpg"
+       },
+       {
+        "id":"2",
+        "picture":"../imagesPub/asadullohsTwo.jpg"
+       },
+       {
+        "id":"3",
+        "picture":"../imagesPub/asadullohsThree.jpg"
+       },
+       {
+        "id":"4",
+        "picture":"../imagesPub/asadullohsFour.jpg"
+       },
+       {
+        "id":"5",
+        "picture":"../imagesPub/asadullohFive.jpg"
+       },
+       {
+        "id":"6",
+        "picture":"../imagesPub/asadullohsSix.jpg"
+       },
+       {
+        "id":"7",
+        "picture":"../imagesPub/asadullohsSeven.jpg"
+       },
+       {
+        "id":"8",
+        "picture":"../imagesPub/asadullohsEight.jpg"
+       }
+    ]
+}

@@ -1,6 +1,5 @@
 import React from 'react'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import './logoslider.css'
 import Slider from 'react-slick';
 import images from '../../assets/images';
@@ -45,7 +44,7 @@ const LogoSlider = () => {
      <div className="logoSlider">
         <div className="container">
          <div className="slider-container">
-      <Slider {...settings}>
+         <Slider {...settings}>
           <div className='logos_wrapper'>
              <img src={images.html} alt="Programming Languages" className='Logos'/>
           </div>

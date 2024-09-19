@@ -4,8 +4,8 @@ import Navbar from '../Navbar/Navbar'
 import { FaGithub } from 'react-icons/fa'
 import { GrProjects } from 'react-icons/gr'
 import images from '../../assets/images'
-import About from '../About/About'
 import LogoSlider from '../LogoSlider/LogoSlider'
+import About from '../About/About'
 const Home = () => {
   return (
     <>
@@ -61,7 +61,8 @@ const Home = () => {
         </div>
       </section>
        <LogoSlider/>
-      <About/>
+       <About/>
+       <LogoSlider/>
     </>
   )
 }

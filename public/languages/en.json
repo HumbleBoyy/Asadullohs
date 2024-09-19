@@ -14,5 +14,11 @@
      "btn1":"My Projects",
      "btn2":"GitHub",
      "image_name":"Asadulloh Abdurakhmonov"
+   },
+   
+   "About":{
+     "text":"I am a Frontend web-developer, I build client side of websites and I am passionate about it! It has been a while that I learnt basics of programming since then I create different projects to enhance my programming skills because I like what I am doing.It is true sometimes programming is annoying, but outcome is worth it! So, I would like contribute to real world projects what makes people's life easier! I look for an IT company with the opportunity to work with the latest technologies on challenging and diverse projects! I'm quiet confident, naturally curious, and perpetually working on improving my skills by doing real world projects.",
+     "textTitle":"Breif information about my goals in IT!"
    }
+   
 }
