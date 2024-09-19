@@ -80,7 +80,28 @@
 
     .about_text{
         margin-top: 2rem;
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+}
+
+@media(max-width:368px){
+    .about_right_item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .TextTitle{
+        line-height: 30px;
+        font-size: 2rem;
+    }
+
+    .about_text{
+        margin-top: 2rem;
         font-size: 1.5rem;
+        width: 100%;
     }
 
 }
