@@ -1,4 +1,4 @@
-import one from '../../public/imagesPub/asaddullohsOne.jpg'
+import one from '../../public/imagesPub/asadullohsOne.jpg'
 import two from "../../public/imagesPub/asadullohsTwo.jpg"
 import three from "../../public/imagesPub/asadullohsThree.jpg"
 import four from "../../public/imagesPub/asadullohsFour.jpg"
