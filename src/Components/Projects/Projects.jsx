@@ -6,6 +6,7 @@ import { collection, getDocs } from 'firebase/firestore/lite';
 import image from "../../../public/imagesPub/asadullohsOne.jpg"
 import { FaGithub, FaShare } from 'react-icons/fa'
 import Slider from 'react-slick';
+import { MdEmail } from 'react-icons/md';
 
 const Projects = () => {
    const settings = {
@@ -95,6 +96,19 @@ const Projects = () => {
 
               <div className="projects_wrapper">
                 {renderProjects(projects)}
+              </div>
+
+              <div className="projects_btn">
+              <div className='home_button'>
+                    <a href="https://github.com/HumbleBoyy" target='blank' className='animation_btn'>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    <button className='home_btn'>
+                    <MdEmail />{t("Navbar.contact")}
+                    </button></a>
+                 </div>
               </div>
           </div>
        </section>
