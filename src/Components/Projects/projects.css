@@ -22,7 +22,7 @@
     height: 400px;
     border-radius: 0px;
     overflow: hidden;
-    padding: 0.2rem;
+    padding: 0rem;
     object-fit: cover;
     cursor: pointer;
 }
