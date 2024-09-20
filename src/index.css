@@ -35,6 +35,9 @@ html{
   --line-divider: #ffffff;
 
   --slider-back-color:#fff;
+
+  --dots-color:#fff;
+  --dots-focus-color:#c7c7c7;
 }
 [data-theme="dark"] {
   --background-color: #000000;
@@ -44,6 +47,9 @@ html{
   --hamburgerAnd-close:#021526;
   --line-divider: #FFF6DA;
   --slider-back-color:#fff;
+
+  --dots-color:#F8F6E3;
+  --dots-focus-color:#0088ff;;
 }
 
 body{
@@ -72,4 +78,21 @@ body{
 
 ::-webkit-scrollbar-thumb:hover {
 	background: linear-gradient(to right, #002a9d, #00011ceb);
+}
+
+
+/* Customizing the dots */
+.slick-dots li button {
+  width: 20px;
+  height: 20px;
+  color: #000;
+  background-color: var(--dots-color);
+  border-radius: 50%;
+  border: none;
+}
+
+/* Active dot styling */
+.slick-dots li.slick-active button {
+  background-color: var(--dots-focus-color);
+  transform: scale(1); /* Make active dot slightly larger */
 }

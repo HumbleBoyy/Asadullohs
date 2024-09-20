@@ -50,7 +50,7 @@ const About = () => {
 
   return (
     <>
-      <section className='about'>
+      <section className='about' id='about'>
         <div className="container">
           <div className='about_title_wrapper'>
             <h2 className='about_title'>{t("Navbar.about")}</h2>

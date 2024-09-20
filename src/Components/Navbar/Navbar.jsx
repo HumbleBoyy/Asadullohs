@@ -33,9 +33,9 @@ const Navbar = () => {
              </div>
              <ul className='navbar_menu_links wrapper'>
                 <li><a href="#home" className='menu_links'>{t('Navbar.home')}</a></li>
-                <li><a href="#home" className='menu_links'>{t('Navbar.about')}</a></li>
-                <li><a href="#home" className='menu_links'>{t('Navbar.projects')}</a></li>
-                <li><a href="#home" className='menu_links'>{t('Navbar.contact')}</a></li>
+                <li><a href="#about" className='menu_links'>{t('Navbar.about')}</a></li>
+                <li><a href="#projects" className='menu_links'>{t('Navbar.projects')}</a></li>
+                <li><a href="#contact" className='menu_links'>{t('Navbar.contact')}</a></li>
                 <div className="navbar_right">
                  <ModeDark/>
                  <div className="languages">
@@ -79,9 +79,9 @@ const Navbar = () => {
                   <div className='divider'/>
                 <ul className='navbar_menu_small_device_links_wrapper'>
                   <li><a href="#home" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.home')}</a></li>
-                  <li><a href="#home" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.about')}</a></li>
-                  <li><a href="#home" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.projects')}</a></li>
-                  <li><a href="#home" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.contact')}</a></li>
+                  <li><a href="#about" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.about')}</a></li>
+                  <li><a href="#projects" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.projects')}</a></li>
+                  <li><a href="#contact" className='menu_links' onClick={()=> setToggle(false)}>{t('Navbar.contact')}</a></li>
                 </ul>
                  </div>
                </>

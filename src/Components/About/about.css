@@ -1,7 +1,7 @@
 .about{
     height: auto;
     background: var( --background-color); 
-    padding: 6rem 0rem;
+    padding: 10rem 0rem;
 }
 .about_items_wrapper{
     display: grid;
