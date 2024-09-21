@@ -145,7 +145,7 @@
 .inputBox{
     position: relative;
     width: 100%;
-    margin: 2rem;
+    margin: 2rem 0rem;
 }
 
 .inputBox .form_input{
@@ -197,6 +197,9 @@
 }
 @media(max-width:1024px){
     .contact_form{
+        padding: 6rem 1rem;
+     }
+    .contact_form{
         width: 50%;
     }
 }
@@ -215,6 +218,9 @@
 }
 
 @media(max-width:362px){
+    .contact_form{
+       padding: 6rem 1rem;
+    }
     .info_text_wrapper{
         margin: 1rem 0.1rem;
     }
