@@ -3,6 +3,7 @@ import './about.css';
 import { t } from 'i18next';
 import Slider from 'react-slick';
 import dataImages from "../../../public/data/pic.json"; 
+import { GrProjects } from 'react-icons/gr';
 
 const About = () => {
   const settings = {
@@ -67,13 +68,26 @@ const About = () => {
               </Slider>
             </div>
             <div className="about_right_item">
-                <h2 className='TextTitle'>{t("About.textTitle")}</h2>
                 <p className='about_text'>
                   {t("About.text")}
                </p>
                <p className='about_text'>
                   {t("About.textSecond")}
                </p>
+               <div className="about_btn_wrapper">
+               <div className='home_button'>
+                    <a href="#projects" className='animation_btn about_section_btn'>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <button className='home_btn'>
+                      <GrProjects />
+                      {t("About.textTitle")}
+                      </button>
+                    </a>
+                </div>
+               </div>
             </div>
           </div>
         </div>

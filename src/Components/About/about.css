@@ -32,7 +32,9 @@
     width: 85%;
     margin-top: 2rem;
 }
-
+.about_section_btn{
+    transform: translate(0%, 30%);
+}
 @media(max-width:1024px){
    
     .about_items_wrapper{
@@ -53,6 +55,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        padding: 1rem;
     }
 
     .TextTitle{
@@ -81,6 +84,12 @@
         margin-top: 2rem;
         font-size: 1.7rem;
         width: 100%;
+    }
+    .about_right_item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0.1rem;
     }
 
 }

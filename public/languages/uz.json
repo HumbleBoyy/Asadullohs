@@ -9,15 +9,15 @@
      "greeting":"Assalomu Alaykum,",
      "name":"Men Asadulloh",
      "profession":"Web-dasturchi",
-     "paragraph":"Men foydalanuvchilarga qulay veb-saytlar yarataman, bu ajoyib! Veb-sayt yaratish haqida gap ketganda, men veb-saytning tashqi ko'rinishini yarataman, ya'ni men Frontend Web-dasturchiman!",
+     "paragraph":"Web-saytning mijozlar ko'radigan web-saytning ko'rinishi ustida ishlayman!",
      "btn1":"Loyihlarim",
      "btn2":"GitHub",
      "image_name":"Asadulloh Abduraxmonov"
    },
    "About":{
-    "text":"Men Frontend veb-ishlab chiquvchisiman, men veb-saytlarning mijoz tomonini yarataman va men bunga ishtiyoqliman! Men dasturlash asoslarini o'rganganimga bir muncha vaqt bo'ldi, o'shandan beri men dasturlash ko'nikmalarimni oshirish uchun turli loyihalarni yarataman, chunki men qilayotgan ish menga yoqadi. To'g'ri, ba'zida dasturlash zerikarli, ammo natija bunga arziydi! Shunday qilib, men odamlar hayotini osonlashtiradigan haqiqiy loyihalarga hissa qo'shishni xohlayman!",
-    "textSecond":"Men so'nggi yangiliklar bilan ishlash imkoniyatiga ega IT kompaniyasini qidiraman qiyin va xilma-xil loyihalar bo'yicha texnologiyalar! Men o'zimga ishonaman, tabiatan qiziquvchan shu sababli doimo o'z ustimda ishlayman haqiqiy loyihalarini amalga oshirish orqali o'z mahoratimni oshiraman!",
-    "textTitle":"IT(Ayti) sohasidagi maqsadlarim haqida qisqacha ma'lumot!",
+    "text":"Ko'rib turganingizdek,Fronted Web-Wasturchiman! Men dasturlashga kirib kelganimga biroz vaqt bo'ldi! Ko'rinishi jozibali va foydali web-ilovalarni yaratish menga juda yoqadi! Men ko'plab ajoyib loyihalarni ishlab chiqdim, albatta mening nuqtai nazarim bo'yicha loyihalarimga baho berish sizga havola! Loyihalarimni Loyihalar bo'limida ko'rishingiz mumkin! Shunday qilib, odamlar hayotini osonlashtiradigan haqiqiy loyihalarni amalga oshirish uchun yaxshi ish imkoniyatlariga ega kompaniya qidirmoqdaman! Ulkan Axborot texnalogiyalari sanoatining bir qismi bo'lish ajoyib!",
+    "textSecond":"O'zimga ishongan tabiatan qiziquvchanman! Shu sababli doimiy ravishda haqiqiy loyihalar ishlab chiqish orqali o'z mahoratimni oshirishni xoxlayman!",
+    "textTitle":"Loyihalarimni ko'rish",
     "visit":"Tashrif"
   }
 }
