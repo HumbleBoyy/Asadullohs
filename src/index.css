@@ -41,6 +41,7 @@ html{
   --dots-focus-color:#c7c7c7;
 
   --contact_color:#000;
+  --contact_form-title-color:#F8F6E3;
 }
 [data-theme="dark"] {
   --background-color: #000000;
@@ -56,6 +57,7 @@ html{
 
 
   --contact_color:#01dbc2;
+  --contact_form-title-color:#01dbc2;
 }
 
 body{

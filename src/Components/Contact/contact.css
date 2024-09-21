@@ -9,6 +9,8 @@
     justify-content: center;
 }
 .contact_form_wrapper{
+    display: flex;
+    align-items: center;
     margin: 5rem 0rem;
 }
 .contact_title{
@@ -78,6 +80,151 @@
 }
 
 .address{
+    font-size: 2.5rem;
     font-weight: 700;
     color: var( --contact_color);
+}
+
+/* Contact form styles */
+.contact_form{
+    position: relative;
+    width: 50%;
+    background: repeating-conic-gradient(from var(--a), 
+    #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 50%
+   );
+
+   animation: animateForm 15s linear infinite;
+   padding: 6rem;
+}
+
+.contact_form::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from var(--a), 
+    #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 50%
+   );
+   animation: animateForm 15s linear infinite;
+   animation-delay: -1.5s;
+}
+
+.contact_form::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border: 20px solid #222;
+    background: #222;
+}
+@property --a 
+{
+    syntax:'<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@keyframes animateForm {
+    0%{
+        --a: 0deg;
+    }
+    100%{
+        --a:360deg;
+    }
+}
+
+.contact_form .inputs_wrapper
+{
+   position: relative;
+   z-index: 10;
+}
+
+.form_title{
+    font-size: 2rem;
+    color: var(--contact_form-title-color);
+}
+
+.inputBox{
+    position: relative;
+    width: 100%;
+    margin: 2rem;
+}
+
+.inputBox .form_input{
+    width: 100% !important;
+    padding: 5px 0;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    border: none;
+    background: transparent;
+    border-bottom: 0.2rem solid #01dbc2;
+    color: aliceblue;
+    outline: none;
+    resize: none;
+}
+
+.form_span{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: aliceblue;
+    transition: ease-in-out 0.5s;
+}
+
+.inputBox .form_input:focus ~ .form_span,
+.inputBox .form_input:valid ~ .form_span,
+.inputBox .email:valid ~ .form_span
+{
+     color: #01dbc2;
+     font-size: 1.3rem;
+     transform: translateY(-20px);
+}
+
+.submit_btn{
+    width: 100%;
+    background: #01dbc2;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #222;
+
+}
+.phone_email{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+@media(max-width:1024px){
+    .contact_form{
+        width: 50%;
+    }
+}
+
+@media(max-width:768px){
+    .contact_form{
+        width: 100%;
+    }
+    .contact_info{
+        width: 100%;
+    }
+    .contact_form_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:362px){
+    .info_text_wrapper{
+        margin: 1rem 0.1rem;
+    }
+    .address{
+        font-size: 2rem;
+    }
+   /* .email_long{
+     width: 80%;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+   } */
 }

@@ -32,13 +32,30 @@ const Contact = () => {
                        <div className="icons"><b></b><MdEmail className="contact_icon"/></div>
                        <div className="info_text_wrapper">
                           <h3 className="address">{t("Contact.email")}</h3>
-                          <p className="phone_email">asadullohabdurakhmon1.1@gmail.com</p>
+                          <a href="mailto:asadullohabdurakhmon1.1@gmail.com" className="phone_email email_long">asadullohabdurakhmon1.1@gmail.com</a>
                        </div>               
                    </div>
                 </div>
 
                 <div className="contact_form">
-
+                    <form className="inputs_wrapper">
+                        <h2 className="form_title">{t("Contact.SendAMessage")}</h2>
+                        <div className="inputBox">
+                            <input type="text" required="required" className="form_input"/>
+                            <span className="form_span">{t("Contact.name")}</span>
+                        </div>
+                        <div className="inputBox">
+                            <input type="text" required="required" className="form_input email"/>
+                            <span className="form_span">{t("Contact.userEmail")}</span>
+                        </div>
+                        <div className="inputBox">
+                            <textarea required="required"  className="form_input"/>
+                            <span className="form_span">{t("Contact.message")}</span>
+                        </div>
+                        <div className="inputBox">
+                            <input type="submit" value={t("Contact.send")} className="submit_btn"/>
+                        </div>
+                    </form>
                 </div>
             </div>
           </div>
