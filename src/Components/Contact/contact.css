@@ -8,6 +8,76 @@
     display: flex;
     justify-content: center;
 }
+.contact_form_wrapper{
+    margin: 5rem 0rem;
+}
 .contact_title{
     font-size: 5rem;
+}
+
+.contact_info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.info_box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.info_box .icons{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: repeating-conic-gradient(from 30deg, 
+     #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 50%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_box .icons::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-conic-gradient(from 117.5deg, 
+    #01dbc2 0%, #01dbc2 10%, transparent 10%, transparent 50%
+   );
+}
+
+.info_box .icons::after{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #222;
+}
+
+.info_box .icons b {
+    position: absolute;
+    inset: 8px;
+    background: #01dbc2;
+    z-index: 2;
+}
+
+.contact_icon{
+    position: relative;
+    z-index: 900;
+    color: #222;
+    font-size: 2rem;
+}
+
+.info_text_wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.address{
+    font-weight: 700;
+    color: var( --contact_color);
 }

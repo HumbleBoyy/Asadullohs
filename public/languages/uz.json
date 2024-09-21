@@ -9,7 +9,7 @@
      "greeting":"Assalomu Alaykum,",
      "name":"Men Asadulloh",
      "profession":"Web-dasturchi",
-     "paragraph":"Web-saytning mijozlar ko'radigan web-saytning ko'rinishi ustida ishlayman!",
+     "paragraph":"Web-saytning mijozlar ko'radigan tashqi ko'rinishi ustida ishlayman!",
      "btn1":"Loyihlarim",
      "btn2":"GitHub",
      "image_name":"Asadulloh Abduraxmonov"
@@ -19,5 +19,16 @@
     "textSecond":"O'zimga ishongan tabiatan qiziquvchanman! Shu sababli doimiy ravishda haqiqiy loyihalar ishlab chiqish orqali o'z mahoratimni oshirishni xoxlayman!",
     "textTitle":"Loyihalarimni ko'rish",
     "visit":"Tashrif"
-  }
+  },
+  "Contact": {
+    "address":"Toshkent, O'zbekiston",
+    "SendAMessage":"Xabar Yuboring",
+    "phoneNumb":"Telefon",
+    "name":"Ismingiz",
+    "message":"Xabaringizning maqsadi",
+    "send":"Yuborish",
+    "email":"Elektron pochta",
+    "userEmail":"Elektron pochtangiz",
+    "viaTelegram":"Asadullohga Telegram orqali xabar yuboring!"
+ }
 }

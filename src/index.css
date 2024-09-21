@@ -39,6 +39,8 @@ html{
 
   --dots-color:#fff;
   --dots-focus-color:#c7c7c7;
+
+  --contact_color:#000;
 }
 [data-theme="dark"] {
   --background-color: #000000;
@@ -50,7 +52,10 @@ html{
   --slider-back-color:#fff;
 
   --dots-color:#F8F6E3;
-  --dots-focus-color:#0088ff;;
+  --dots-focus-color:#0088ff;
+
+
+  --contact_color:#01dbc2;
 }
 
 body{

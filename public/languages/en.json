@@ -21,6 +21,17 @@
      "textSecond":" I'm quiet confident, naturally curious, and perpetually working on improving my skills by doing real world projects!",
      "textTitle":"Take a look my projects",
      "visit":"Visit"
+   },
+   "Contact": {
+      "address":"Tashkent, Uzbekistan",
+      "SendAMessage":"Send Message",
+      "phoneNumb":"Phone",
+      "name":"Full Name",
+      "message":"Purpose of your message",
+      "send":"Send",
+      "email":"Email",
+      "userEmail":"Enter your email",
+      "viaTelegram":"Send Asadulloh Message Via Telegram!"
    }
    
 }
