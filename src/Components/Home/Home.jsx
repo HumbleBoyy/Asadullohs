@@ -7,6 +7,7 @@ import images from '../../assets/images'
 import LogoSlider from '../LogoSlider/LogoSlider'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact'
 const Home = () => {
   return (
     <>
@@ -65,6 +66,8 @@ const Home = () => {
        <About/>
        <LogoSlider/>
        <Projects/>
+       <LogoSlider/>
+       <Contact/>
     </>
   )
 }

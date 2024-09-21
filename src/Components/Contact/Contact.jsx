@@ -1,9 +1,14 @@
-import React from 'react'
-import images from '../../assets/images'
+import "./contact.css"
 const Contact = () => {
   return (
     <>
-     Contact 
+       <section className='contact' id='contact'>
+          <div className='container'>
+              <div className="contact_title_wrapper">
+                 <h2 className="contact_title">Contact</h2>
+              </div>
+          </div>
+       </section>
     </>
   )
 }

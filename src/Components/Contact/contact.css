@@ -1,0 +1,13 @@
+.contact{
+    height: 100vh;
+    background: var( --background-color); 
+    padding: 10rem 0rem;
+}
+
+.contact_title_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.contact_title{
+    font-size: 5rem;
+}
