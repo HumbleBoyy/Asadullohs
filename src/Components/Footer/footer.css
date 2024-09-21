@@ -1,5 +1,5 @@
 .footer{
-    height: 50px;
+    height: auto;
     background: var(--navbar-back-color);
     padding: 2rem;
 }

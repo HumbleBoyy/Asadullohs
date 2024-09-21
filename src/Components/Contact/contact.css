@@ -1,5 +1,5 @@
 .contact{
-    height: 100vh;
+    height: auto;
     background: var( --background-color); 
     padding: 10rem 0rem;
 }
