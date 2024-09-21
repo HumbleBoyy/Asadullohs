@@ -1,7 +1,7 @@
 .projects{
     height: 100vh;
     background: var( --background-color); 
-    padding: 6rem 0rem;
+    padding: 10rem 0rem;
 }
 .slider_wrapper{
     margin: 3rem 0rem;
@@ -87,4 +87,14 @@
     color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     background: aliceblue;
+}
+
+.project_edition{
+	transform: translate(0%, -50%);
+}
+
+@media(max-width:356px){
+    .project_btn{
+        padding: 8px 20px;
+    }
 }

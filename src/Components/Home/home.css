@@ -266,8 +266,8 @@
 }
 @media(max-width:968px){
 	.home_items_wrapper{
-		display: grid;
-		grid-template-columns: 1fr;
+		display: flex;
+		flex-direction: column-reverse;
 	}
 	.home_item_right{
 		display: flex;
@@ -276,9 +276,9 @@
 		align-items: center;
 	}
 	.box_image{
-		width: 400px;
-		height: 400px;
-		display: none;
+		width: 600px;
+		height: 600px;
+		display: block;
 	}
 	.animation_btn{
 		top: 70%;
@@ -348,8 +348,8 @@
 		justify-content: center;
 	}
 	.box_image{
-		width: 450px;
-		height: 450px;
+		width: 410px;
+		height: 410px;
 	}
 	.image_name{
 		font-size: 2.5rem;
