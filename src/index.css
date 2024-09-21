@@ -46,7 +46,7 @@ html{
 [data-theme="dark"] {
   --background-color: #000000;
   --text-color: #F8F6E3;
-  --navbar-back-color: #211951;
+  --navbar-back-color: linear-gradient(to right, #002a9d, #00011ceb);
   --circle-menu: #ffffff;
   --hamburgerAnd-close:#021526;
   --line-divider: #FFF6DA;
