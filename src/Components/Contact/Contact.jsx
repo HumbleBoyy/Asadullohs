@@ -25,7 +25,7 @@ const Contact = () => {
                        <div className="icons"><b></b><FaPhoneVolume className="contact_icon"/></div>
                        <div className="info_text_wrapper">
                           <h3 className="address">{t("Contact.phoneNumb")}</h3>
-                          <p className="phone_email">+998 (94) 236 00 36</p>
+                          <a href="tel:+998942360036" className="phone_email">+998 (94) 236 00 36</a>
                        </div>               
                    </div>
                    <div className="info_box">
