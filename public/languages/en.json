@@ -32,6 +32,9 @@
       "email":"Email",
       "userEmail":"Enter your email",
       "viaTelegram":"Send Asadulloh Message Via Telegram!"
+   },
+   "footer":{
+    "text":"2024 © Asadullohs LLC. All rights reserved"
    }
    
 }

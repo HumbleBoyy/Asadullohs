@@ -8,6 +8,7 @@ import LogoSlider from '../LogoSlider/LogoSlider'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 const Home = () => {
   return (
     <>
@@ -68,6 +69,7 @@ const Home = () => {
        <Projects/>
        <LogoSlider/>
        <Contact/>
+       <Footer/>
     </>
   )
 }

@@ -30,5 +30,8 @@
     "email":"Elektron pochta",
     "userEmail":"Elektron pochtangiz",
     "viaTelegram":"Asadullohga Telegram orqali xabar yuboring!"
+ },
+ "footer":{
+  "text":"2024 © Asadullohs MChJ. Barcha huquqlar himoyalangan"
  }
 }
