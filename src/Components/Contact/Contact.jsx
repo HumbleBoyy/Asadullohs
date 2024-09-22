@@ -2,11 +2,23 @@ import { t } from "i18next"
 import "./contact.css"
 import { FaLocationDot, FaPhoneVolume, FaTelegram } from "react-icons/fa6"
 import { MdEmail } from "react-icons/md";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
+import 'react-toastify/dist/ReactToastify.css';
+import { toast, ToastContainer } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
+
+  const [formData, setFormData] = useState({
+    user_name:'',
+    email_name:'',
+    message:''
+  })
+
+  const handleChange = (e) => {
+    setFormData({...formData, [e.target.name]: e.target.value})
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,7 +29,12 @@ const Contact = () => {
       })
       .then(
         () => {
-          alert('SUCCESS!');
+          toast.success(t("Contact.toast"));
+          setFormData({
+            user_name:'',
+            email_name:'',
+            message:''
+          })
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -26,6 +43,9 @@ const Contact = () => {
   };
   return (
     <>
+    <ToastContainer
+     style={{ width: "400px", fontSize: "2rem",  color: "#fff" }}
+    />
        <section className='contact' id='contact'>
           <div className='container'>
               <div className="contact_title_wrapper">
@@ -61,19 +81,28 @@ const Contact = () => {
                     <form className="inputs_wrapper" ref={form} onSubmit={sendEmail}>
                         <h2 className="form_title">{t("Contact.SendAMessage")}</h2>
                         <div className="inputBox">
-                            <input type="text" required="required" name="user_name" className="form_input"/>
+                            <input type="text" required="required" name="user_name" className="form_input"
+                              value={formData.user_name}
+                              onChange={handleChange}
+                            />
                             <span className="form_span">{t("Contact.name")}</span>
                         </div>
                         <div className="inputBox">
-                            <input type="text" required="required" name="user_email" className="form_input email"/>
+                            <input type="text" required="required" name="email_name" className="form_input email"
+                              value={formData.email_name}
+                              onChange={handleChange}
+                            />
                             <span className="form_span">{t("Contact.userEmail")}</span>
                         </div>
                         <div className="inputBox">
-                            <textarea required="required" name="message" className="form_input"/>
+                            <textarea required="required" name="message" className="form_input"
+                               value={formData.message} 
+                               onChange={handleChange}
+                            />
                             <span className="form_span">{t("Contact.message")}</span>
                         </div>
                         <div className="inputBox">
-                            <input type="submit" value={t("Contact.send")} className="submit_btn"/>
+                            <button type="submit" className="submit_btn">{t("Contact.send")}</button>
                         </div>
                     </form>
                 </div>

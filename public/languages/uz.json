@@ -29,7 +29,8 @@
     "send":"Yuborish",
     "email":"Elektron pochta",
     "userEmail":"Elektron pochtangiz",
-    "viaTelegram":"Asadullohga Telegram orqali xabar yuboring!"
+    "viaTelegram":"Asadullohga Telegram orqali xabar yuboring!",
+    "toast":"Xabar muvafaqiyyatli yuborildi!"
  },
  "footer":{
   "text":"2024 © Asadullohs MChJ. Barcha huquqlar himoyalangan"
