@@ -69,7 +69,7 @@ const Home = () => {
        <Projects/>
        <LogoSlider/>
        <Contact/>
-       <Footer/>
+       
     </>
   )
 }

@@ -1,12 +1,12 @@
 import React from 'react'
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import { FaTelegram } from "react-icons/fa6"
 import { useState } from "react";
+import './modal.css'
+import { FaTelegramPlane } from 'react-icons/fa';
 
-const Modal = () => {
+const Modales = () => {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -24,6 +24,16 @@ const Modal = () => {
       };
   return (
     <>
+
+    <section className='modal'>
+        <div className="container">
+            <div className="telegram_btn_wrapper">
+                <div className="telegram_btn">
+                  <FaTelegramPlane onClick={setOpen} className='telegram_icon'/>
+                </div>
+            </div>
+        </div>
+    </section>
    <div>
        <Modal
         open={open}
@@ -45,4 +55,4 @@ const Modal = () => {
   )
 }
 
-export default Modal
+export default Modales
