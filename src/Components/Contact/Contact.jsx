@@ -1,7 +1,8 @@
 import { t } from "i18next"
 import "./contact.css"
-import { FaLocationDot, FaPhoneVolume, FaTelegram } from "react-icons/fa6"
+import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6"
 import { MdEmail } from "react-icons/md";
+import { IoSend } from "react-icons/io5";
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import 'react-toastify/dist/ReactToastify.css';
@@ -102,7 +103,7 @@ const Contact = () => {
                             <span className="form_span">{t("Contact.message")}</span>
                         </div>
                         <div className="inputBox">
-                            <button type="submit" className="submit_btn">{t("Contact.send")}</button>
+                            <button type="submit" className="submit_btn">{t("Contact.send")}<IoSend /></button>
                         </div>
                     </form>
                 </div>

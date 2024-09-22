@@ -5,6 +5,7 @@ import Modal from '@mui/material/Modal';
 import { useState } from "react";
 import './modal.css'
 import { FaTelegramPlane } from 'react-icons/fa';
+import { t } from 'i18next';
 
 const Modales = () => {
     const [open, setOpen] = useState(false);
@@ -12,15 +13,7 @@ const Modales = () => {
     const handleClose = () => setOpen(false);
 
     const style = {
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-        width: 400,
-        bgcolor: 'background.paper',
-        border: '2px solid #000',
-        boxShadow: 24,
-        p: 4,
+      
       };
   return (
     <>
@@ -28,8 +21,8 @@ const Modales = () => {
     <section className='modal'>
         <div className="container">
             <div className="telegram_btn_wrapper">
-                <div className="telegram_btn">
-                  <FaTelegramPlane onClick={setOpen} className='telegram_icon'/>
+                <div className="telegram_btn" onClick={setOpen}>
+                  <FaTelegramPlane  className='telegram_icon'/>
                 </div>
             </div>
         </div>
@@ -41,13 +34,25 @@ const Modales = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography>
+        <Box className="Modal_box">
+          <div className="modal_header_title_wrapper">
+             <h2 className='modal_title'>{t("Modal.viaTelegram")}</h2>
+          </div>
+            
+            <form className='form_inputs'>
+               <div className='input_wrapper'>
+                  <input type="text"  placeholder={t("Modal.name")} className='input_itself'required="required"/>
+               </div>
+               <div className='input_wrapper'>
+                  <input type="number"  placeholder={t(`Modal.phoneNumb`)} className='input_itself'required="required"/>
+               </div>
+               <div className='input_wrapper'>
+                  <input type="text"  placeholder={t("Modal.TelegramUsename")} className='input_itself' required="required"/>
+               </div>
+               <div className='input_wrapper'>
+                  <textarea placeholder={t("Modal.message")} className='Textare_itself' required="required"/>
+               </div>
+            </form>
         </Box>
       </Modal>
       </div>

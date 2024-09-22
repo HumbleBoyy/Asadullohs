@@ -29,9 +29,16 @@
     "send":"Yuborish",
     "email":"Elektron pochta",
     "userEmail":"Elektron pochtangiz",
-    "viaTelegram":"Asadullohga Telegram orqali xabar yuboring!",
     "toast":"Xabar muvafaqiyyatli yuborildi!"
  },
+ "Modal":{
+  "viaTelegram":"Asadullohga Telegram orqali xabar yuboring!",
+  "name":"Ismingiz",
+  "phone":"Telefon",
+  "TelegramUsename":"Telegramdagi foydalanuvchi @ismingiz",
+  "message":"Xabaringiz Maqsadi!",
+  "send":"Yuborish"
+},
  "footer":{
   "text":"2024 © Asadullohs MChJ. Barcha huquqlar himoyalangan"
  }

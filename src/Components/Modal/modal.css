@@ -46,6 +46,73 @@
     100%{transform: scale(1);}
 }
 
+.Modal_box{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 60%;
+    background: var( --background-color);
+    border: 2px solid var(--text-color);
+    box-shadow: 24px;
+    padding: 4rem;
+    border-radius: 10px;
+}
+.form_inputs{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.input_wrapper{
+    width: 100%;
+    background: transparent;
+    height: 50px;
+    margin-top: 2rem;
+}
+
+.input_itself{
+    height: 100%;
+    width: 100%;
+    padding: 2rem 0.1rem;
+    font-size: 1.5rem;
+    border: 3px solid transparent;
+    border-bottom: 3px solid rgb(0, 153, 255);
+    outline: none;
+    background: transparent;
+    color: var(--text-color);
+    border-radius: 10px;
+}
+.input_itself:focus,
+.Textare_itself:focus
+{
+    border-bottom: 3px solid rgb(0, 153, 255); 
+    border: 3px solid rgb(0, 153, 255);
+}
+.modal_header_title_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Textare_itself{
+    height: 120px;
+    width: 100%;
+    padding: 2rem 0.1rem;
+    font-size: 1.5rem;
+    border: 3px solid transparent;
+    border-bottom: 3px solid rgb(0, 153, 255);
+    outline: none;
+    background: transparent;
+    color: var(--text-color);
+    border-radius: 10px;
+    resize: none;
+}
+.modal_title{
+    font-size: 2rem;
+}
+
 @media(max-width:1024px){
     .telegram_btn_wrapper{
         right: 9rem;

@@ -32,6 +32,14 @@
       "viaTelegram":"Отправьте Асадуллоху сообщение через Telegram!",
       "toast":"Сообщение успешно отправлено!"
    },
+   "Modal":{
+    "viaTelegram":"Отправьте Асадуллоху сообщение через Telegram!",
+    "name":"Имя",
+    "phoneNumb":"Телефон",
+    "TelegramUsename":"Ваше имя пользователя в Telegram",
+    "message":"Цель вашего сообщения",
+    "send":"Отправлять"
+  },
    "footer":{
     "text":"2024 © Asadullohs LLC. Все права защищены"
    }

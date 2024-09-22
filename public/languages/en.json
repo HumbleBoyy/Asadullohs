@@ -31,8 +31,15 @@
       "send":"Send",
       "email":"Email",
       "userEmail":"Enter your email",
-      "viaTelegram":"Send Asadulloh Message Via Telegram!",
-      "toast":"Message successfully sent!"
+      "toast":"Message Successfully Sent!"
+   },
+   "Modal":{
+     "viaTelegram":"Send Asadulloh Message Via Telegram!",
+     "name":"Name",
+     "phone":"Phone",
+     "TelegramUsename":"Your telegram @username",
+     "message":"Purpose of your message!",
+     "send":"Send"
    },
    "footer":{
     "text":"2024 © Asadullohs LLC. All rights reserved"
