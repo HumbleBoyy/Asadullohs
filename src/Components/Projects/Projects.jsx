@@ -100,7 +100,7 @@ const Projects = () => {
 
               <div className="projects_btn">
               <div className='home_button'>
-                    <a href="#contact" target='blank' className='animation_btn project_edition'>
+                    <a href="#contact" className='animation_btn project_edition'>
                       <span></span>
                       <span></span>
                       <span></span>
