@@ -197,7 +197,6 @@
 }
 
 .toast_container{
-    width: 500px;
     font-size: 1.8rem;
 }
 @media(max-width:1024px){
@@ -206,10 +205,6 @@
      }
     .contact_form{
         width: 50%;
-    }
-    .toast_container{
-        width: 800px;
-        font-size: 1.8rem;
     }
 }
 
