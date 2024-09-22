@@ -2,8 +2,28 @@ import { t } from "i18next"
 import "./contact.css"
 import { FaLocationDot, FaPhoneVolume, FaTelegram } from "react-icons/fa6"
 import { MdEmail } from "react-icons/md";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_9qsa0fj', 'template_rg9407f', form.current, {
+        publicKey: 'WFd4uApw-NfbcRmHE',
+      })
+      .then(
+        () => {
+          alert('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <>
        <section className='contact' id='contact'>
@@ -38,18 +58,18 @@ const Contact = () => {
                 </div>
 
                 <div className="contact_form">
-                    <form className="inputs_wrapper">
+                    <form className="inputs_wrapper" ref={form} onSubmit={sendEmail}>
                         <h2 className="form_title">{t("Contact.SendAMessage")}</h2>
                         <div className="inputBox">
-                            <input type="text" required="required" className="form_input"/>
+                            <input type="text" required="required" name="user_name" className="form_input"/>
                             <span className="form_span">{t("Contact.name")}</span>
                         </div>
                         <div className="inputBox">
-                            <input type="text" required="required" className="form_input email"/>
+                            <input type="text" required="required" name="user_email" className="form_input email"/>
                             <span className="form_span">{t("Contact.userEmail")}</span>
                         </div>
                         <div className="inputBox">
-                            <textarea required="required"  className="form_input"/>
+                            <textarea required="required" name="message" className="form_input"/>
                             <span className="form_span">{t("Contact.message")}</span>
                         </div>
                         <div className="inputBox">

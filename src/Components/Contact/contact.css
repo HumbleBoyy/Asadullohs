@@ -1,5 +1,5 @@
 .contact{
-    height: auto;
+    height: a;
     background: var( --background-color); 
     padding: 10rem 0rem;
 }
@@ -145,7 +145,7 @@
 .inputBox{
     position: relative;
     width: 100%;
-    margin: 2rem 0rem;
+    margin: 3rem 0rem;
 }
 
 .inputBox .form_input{
