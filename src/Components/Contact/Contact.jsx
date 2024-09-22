@@ -44,7 +44,7 @@ const Contact = () => {
   return (
     <>
     <ToastContainer
-     style={{ width: "400px", fontSize: "1.5rem",  color: "#fff" }}
+     style={{ width: "300px", fontSize: "1.5rem",  color: "#fff" }}
     />
        <section className='contact' id='contact'>
           <div className='container'>
