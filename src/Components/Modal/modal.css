@@ -45,3 +45,10 @@
     70%{transform: scale(1.1);}
     100%{transform: scale(1);}
 }
+
+@media(max-width:1024px){
+    .telegram_btn_wrapper{
+        right: 9rem;
+        width: 2rem;
+    }
+}
