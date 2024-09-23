@@ -31,7 +31,8 @@
       "send":"Send",
       "email":"Email",
       "userEmail":"Enter your email",
-      "toast":"Message Successfully Sent!"
+      "toast":"Message Successfully Sent!",
+      "toastError":"Something went wrong!"
    },
    "Modal":{
      "viaTelegram":"Send Asadulloh Message Via Telegram!",

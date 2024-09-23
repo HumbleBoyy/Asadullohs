@@ -29,7 +29,8 @@
     "send":"Yuborish",
     "email":"Elektron pochta",
     "userEmail":"Elektron pochtangiz",
-    "toast":"Xabar muvafaqiyyatli yuborildi!"
+    "toast":"Xabar muvafaqiyyatli yuborildi!",
+    "toastError":"Nimadir xato ketdi!"
  },
  "Modal":{
   "viaTelegram":"Asadullohga Telegram orqali xabar yuboring!",
