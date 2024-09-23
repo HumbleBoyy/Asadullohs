@@ -10,7 +10,7 @@ import { MdEmail } from 'react-icons/md';
 
 const Projects = () => {
    const settings = {
-      dots: true,
+      dots: false,
       numbers:true,
       infinite: true,
       slidesToShow: 3,
@@ -31,7 +31,6 @@ const Projects = () => {
           {
             breakpoint: 900,
             settings: {
-               dots: false,
               slidesToShow: 2,
               slidesToScroll: 1,
             }
