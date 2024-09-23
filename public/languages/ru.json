@@ -38,7 +38,8 @@
     "phone":"Номер телефона",
     "TelegramUsename":"Телеграм @username",
     "message":"Цель вашего сообщения",
-    "send":"Отправлять"
+    "send":"Отправлять",
+    "cancel":"Отмена"
   },
    "footer":{
     "text":"2024 © Asadullohs LLC. Все права защищены"

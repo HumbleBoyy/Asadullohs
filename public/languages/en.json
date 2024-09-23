@@ -39,7 +39,8 @@
      "phone":"Phone number",
      "TelegramUsename":"Telegram @username",
      "message":"Purpose of your message!",
-     "send":"Send"
+     "send":"Send",
+     "cancel":"Cancel"
    },
    "footer":{
     "text":"2024 © Asadullohs LLC. All rights reserved"

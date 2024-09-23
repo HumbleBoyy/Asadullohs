@@ -7,6 +7,7 @@ import './modal.css'
 import { FaTelegramPlane } from 'react-icons/fa';
 import { t } from 'i18next';
 import { IoSend } from 'react-icons/io5';
+import { MdCancelScheduleSend } from "react-icons/md";
 
 const Modales = () => {
     const [open, setOpen] = useState(false);
@@ -18,9 +19,8 @@ const Modales = () => {
       top: '50%',
       left: '50%',
       transform: 'translate(-50%, -50%)',
-      width: 600,
       border: '2px solid #000',
-      boxShadow: 24,
+      boxShadow: 100,
       };
   return (
     <>
@@ -63,7 +63,8 @@ const Modales = () => {
                             <textarea required="required" name="message" className="form_input modal_input" />
                             <span className="form_span modal_span">{t("Contact.message")}</span>
                         </div>
-                        <div className="inputBox">
+                        <div className="inputBox modal_box_btns">
+                        <button onClick={handleClose} className="submit_btn modal_btn red_one">{t("Modal.cancel")}<MdCancelScheduleSend /></button>
                             <button type="submit" className="submit_btn modal_btn">{t("Contact.send")}<IoSend /></button>
                         </div>
                     </form>

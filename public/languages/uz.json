@@ -37,7 +37,8 @@
   "phone":"Telefon raqamingiz",
   "TelegramUsename":"Telegram @ismingiz",
   "message":"Xabaringiz Maqsadi!",
-  "send":"Yuborish"
+  "send":"Yuborish",
+  "cancel":"Bekor qilish"
 },
  "footer":{
   "text":"2024 © Asadullohs MChJ. Barcha huquqlar himoyalangan"
