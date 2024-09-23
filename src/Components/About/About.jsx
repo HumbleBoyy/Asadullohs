@@ -13,7 +13,7 @@ const About = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
+    speed: 2000,
     arrows: false,
     autoplaySpeed: 10000,
     cssEase: "linear",

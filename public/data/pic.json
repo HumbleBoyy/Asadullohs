@@ -31,6 +31,30 @@
        {
         "id":"8",
         "picture":"../imagesPub/asadullohsEight.jpg"
+       },
+       {
+        "id":"9",
+        "picture":"../imagesPub/newOne.jpg"
+       },
+       {
+        "id":"10",
+        "picture":"../imagesPub/newTwo.jpg"
+       },
+       {
+        "id":"11",
+        "picture":"../imagesPub/newThree.jpg"
+       },
+       {
+        "id":"12",
+        "picture":"../imagesPub/newFour.jpg"
+       },
+       {
+        "id":"13",
+        "picture":"../imagesPub/newFive.jpg"
+       },
+       {
+        "id":"14",
+        "picture":"../imagesPub/newSix.jpg"
        }
     ]
 }
