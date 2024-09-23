@@ -1,5 +1,5 @@
 .home {
-    height: 100vh;
+    height: auto;
     padding: 20rem 0rem;
 }
 
@@ -260,7 +260,7 @@
 	.animation_btn{
 		top: 70%;
 		left: 30%;
-		transform: translate(-35%, -50%);
+		transform: translate(0%, -50%);
 		padding: 20px 60px;
 	}
 }

@@ -36,6 +36,7 @@
     transform: translate(0%, 30%);
     padding: 20px 70px;
 }
+
 @media(max-width:1024px){
    
     .about_items_wrapper{
@@ -67,6 +68,11 @@
         width: 95%;
     }
 
+    .about_section_btn{
+        transform: translate(0%, 30%);
+        padding: 20px 70px;
+    }
+
 }
 
 @media(max-width:578px){
@@ -91,6 +97,14 @@
         justify-content: center;
         flex-direction: column;
         padding: 0.5rem;
+    }
+    .about_section_btn{
+        transform: translate(0%, 30%);
+        padding: 20px 50px;
+    }
+    .about_btn_wrapper{
+        display: flex;
+        justify-content: center;
     }
 
 }

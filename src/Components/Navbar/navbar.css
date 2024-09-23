@@ -122,7 +122,7 @@
         align-items: center;
         justify-self: end;
         justify-content: right;
-        padding: 2rem;
+        padding: 2rem 1rem;
     }
 
     .small_device_navbar{

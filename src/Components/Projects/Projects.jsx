@@ -37,7 +37,7 @@ const Projects = () => {
             }
           },
           {
-            breakpoint: 578,
+            breakpoint: 661,
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
