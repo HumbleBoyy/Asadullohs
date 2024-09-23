@@ -45,7 +45,7 @@ const Modales = () => {
            Message: ${message}
           `;
   
-      console.log('Sending message content:', messageContent); 
+      // console.log('Sending message content:', messageContent); 
   
       axios({
         method: "POST", 
