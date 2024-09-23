@@ -6,6 +6,7 @@ import { useState } from "react";
 import './modal.css'
 import { FaTelegramPlane } from 'react-icons/fa';
 import { t } from 'i18next';
+import { IoSend } from 'react-icons/io5';
 
 const Modales = () => {
     const [open, setOpen] = useState(false);
@@ -13,7 +14,13 @@ const Modales = () => {
     const handleClose = () => setOpen(false);
 
     const style = {
-      
+      position: 'absolute',
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+      width: '100%',
+      border: '2px solid #000',
+      boxShadow: 24,
       };
   return (
     <>
@@ -34,25 +41,33 @@ const Modales = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box className="Modal_box">
-          <div className="modal_header_title_wrapper">
-             <h2 className='modal_title'>{t("Modal.viaTelegram")}</h2>
-          </div>
-            
-            <form className='form_inputs'>
-               <div className='input_wrapper'>
-                  <input type="text"  placeholder={t("Modal.name")} className='input_itself'required="required"/>
-               </div>
-               <div className='input_wrapper'>
-                  <input type="number"  placeholder={t(`Modal.phoneNumb`)} className='input_itself'required="required"/>
-               </div>
-               <div className='input_wrapper'>
-                  <input type="text"  placeholder={t("Modal.TelegramUsename")} className='input_itself' required="required"/>
-               </div>
-               <div className='input_wrapper'>
-                  <textarea placeholder={t("Modal.message")} className='Textare_itself' required="required"/>
-               </div>
-            </form>
+        <Box sx={style} className="Modal_box">
+          <div className="contact_formModal">
+                    <form className="inputs_wrapper">
+                    <div className="modal_header_title_wrapper">
+                      <h2 className='modal_title'>{t("Modal.viaTelegram")}</h2>
+                    </div>
+                        <div className="inputBox">
+                            <input type="text" required="required" className="form_input modal_input"/>
+                            <span className="form_span modal_span">{t("Contact.name")}</span>
+                        </div>
+                        <div className="inputBox">
+                            <input type="text" required="required" className="form_input modal_input"/>
+                            <span className="form_span modal_span">{t("Modal.TelegramUsename")}</span>
+                        </div>
+                        <div className="inputBox">
+                            <input type="number" required="required" className="form_input modal_input"/>
+                            <span className="form_span modal_span">{t("Modal.phoneNumb")}</span>
+                        </div>
+                        <div className="inputBox">
+                            <textarea required="required" name="message" className="form_input modal_input" />
+                            <span className="form_span modal_span">{t("Contact.message")}</span>
+                        </div>
+                        <div className="inputBox">
+                            <button type="submit" className="submit_btn modal_btn">{t("Contact.send")}<IoSend /></button>
+                        </div>
+                    </form>
+                </div>
         </Box>
       </Modal>
       </div>

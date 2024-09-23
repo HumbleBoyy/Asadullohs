@@ -34,8 +34,8 @@
  "Modal":{
   "viaTelegram":"Asadullohga Telegram orqali xabar yuboring!",
   "name":"Ismingiz",
-  "phone":"Telefon",
-  "TelegramUsename":"Telegramdagi foydalanuvchi @ismingiz",
+  "phone":"Telefon raqamingiz",
+  "TelegramUsename":"Telegram @ismingiz",
   "message":"Xabaringiz Maqsadi!",
   "send":"Yuborish"
 },

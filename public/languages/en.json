@@ -36,8 +36,8 @@
    "Modal":{
      "viaTelegram":"Send Asadulloh Message Via Telegram!",
      "name":"Name",
-     "phone":"Phone",
-     "TelegramUsename":"Your telegram @username",
+     "phone":"Phone number",
+     "TelegramUsename":"Telegram @username",
      "message":"Purpose of your message!",
      "send":"Send"
    },

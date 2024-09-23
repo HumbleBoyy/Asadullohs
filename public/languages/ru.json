@@ -35,8 +35,8 @@
    "Modal":{
     "viaTelegram":"Отправьте Асадуллоху сообщение через Telegram!",
     "name":"Имя",
-    "phoneNumb":"Телефон",
-    "TelegramUsename":"Ваше имя пользователя в Telegram",
+    "phoneNumb":"Номер телефона",
+    "TelegramUsename":"Телеграм @username",
     "message":"Цель вашего сообщения",
     "send":"Отправлять"
   },
