@@ -18,7 +18,7 @@ const Modales = () => {
       top: '50%',
       left: '50%',
       transform: 'translate(-50%, -50%)',
-      width: '100%',
+      width: 600,
       border: '2px solid #000',
       boxShadow: 24,
       };
@@ -57,7 +57,7 @@ const Modales = () => {
                         </div>
                         <div className="inputBox">
                             <input type="number" required="required" className="form_input modal_input"/>
-                            <span className="form_span modal_span">{t("Modal.phoneNumb")}</span>
+                            <span className="form_span modal_span">{t("Modal.phone")}</span>
                         </div>
                         <div className="inputBox">
                             <textarea required="required" name="message" className="form_input modal_input" />
