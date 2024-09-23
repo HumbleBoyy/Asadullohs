@@ -37,11 +37,11 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    left: 16%;
     margin-top: 5rem;
 }
 .home_button{
     display: flex;
+	margin: 0rem 0.5rem;
 }
 .home_btn{
     background: transparent;
@@ -54,10 +54,10 @@
 }
 .animation_btn{
 	top: 70%;
-	left: 20%;
-	transform: translate(-50%, -50%);
+	left: 0%;
+	transform: translate(0%, -50%);
 	overflow: hidden;
-	padding: 20px 60px;
+	padding: 20px 70px;
 	font-size: 3rem;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -283,7 +283,7 @@
 	.animation_btn{
 		top: 70%;
 		left: 0%;
-		transform: translate(-50%, -50%);
+		transform: translate(0%, -50%);
 		overflow: hidden;
 		padding: 20px 60px;
 		font-size: 3rem;
@@ -324,7 +324,7 @@
 	.animation_btn{
 		top: 70%;
 		left: 0%;
-		transform: translate(-50%, -50%);
+		transform: translate(0%, -50%);
 		padding: 20px 60px;
 		font-size: 3rem;
 	}
@@ -357,7 +357,7 @@
 	.animation_btn{
 		top: 70%;
 		left: 0%;
-		transform: translate(-20%, -30%);
+		transform: translate(0%, -30%);
 		overflow: hidden;
 		padding: 20px 70px;
 		width: 100%;
@@ -408,10 +408,9 @@
 	.animation_btn{
 		top: 70%;
 		left: 0%;
-		transform: translate(-20%, -30%);
+		transform: translate(0%, -30%);
 		overflow: hidden;
-		padding: 20px 50px;
-		width: 100%;
+		padding: 20px 90px;
 		font-size: 3rem;
 	}
 	.greeting{
@@ -455,9 +454,8 @@
 	.animation_btn{
 		top: 70%;
 		left: 0%;
-		transform: translate(-20%, -30%);
-		padding: 20px 40px;
-		width: 100%;
+		transform: translate(0%, -30%);
+		padding: 20px 60px;
 		font-size: 3rem;
 	}
 	

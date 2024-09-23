@@ -23,7 +23,7 @@ const Home = () => {
                  <p className='info_paragraph'>{t("Home.paragraph")}</p>
                  <div className="home_Special_buttons">
                  <div className='home_button'>
-                    <a href="#projects" className='animation_btn'>
+                    <a href="#projects" className='animation_btn github_home'>
                       <span></span>
                       <span></span>
                       <span></span>
@@ -35,7 +35,7 @@ const Home = () => {
                     </a>
                  </div>
                  <div className='home_button'>
-                    <a href="https://github.com/HumbleBoyy" target='blank' className='animation_btn'>
+                    <a href="https://github.com/HumbleBoyy" target='blank' className='animation_btn github_home'>
                       <span></span>
                       <span></span>
                       <span></span>

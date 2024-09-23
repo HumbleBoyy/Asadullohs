@@ -34,6 +34,7 @@
 }
 .about_section_btn{
     transform: translate(0%, 30%);
+    padding: 20px 70px;
 }
 @media(max-width:1024px){
    
@@ -110,6 +111,10 @@
         margin-top: 2rem;
         font-size: 1.5rem;
         width: 100%;
+    }
+    .about_section_btn{
+        transform: translate(0%, 30%);
+        padding: 20px 30px;
     }
 
 }
