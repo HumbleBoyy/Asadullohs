@@ -289,21 +289,19 @@
 		font-size: 3rem;
 	}
 	.greeting{
-		font-size: 3rem;
+		display: none;
 	}
 	
 	.name{
-		font-size: 5rem;
+		display: none;
 	}
 	
 	.profession{
-		font-size: 6rem;
+		display: none;
 	}
 	
 	.info_paragraph{
-		font-size: 1.5rem;
-		width: 80%;
-		line-height: 20px;
+		display: none;
 	}
 }
 
@@ -327,21 +325,6 @@
 		transform: translate(0%, -50%);
 		padding: 20px 60px;
 		font-size: 3rem;
-	}
-	.greeting{
-		display: none;
-	}
-	
-	.name{
-		display: none;
-	}
-	
-	.profession{
-		display: none;
-	}
-	
-	.info_paragraph{
-		display: none;
 	}
 	
 }
